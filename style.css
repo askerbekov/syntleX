@@ -75,5 +75,13 @@ nav h1 {
 }
 #disine p {
   width: 70%;
-  margin-left: 35px;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container2 div {
+  width: 320px;
+  margin: 3%;
+  flex-direction: column;
 }
