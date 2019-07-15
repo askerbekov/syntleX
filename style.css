@@ -11,10 +11,16 @@ header {
   width: 100%;
   padding: (0, 30px, 0, 30px);
 }
+nav {
+  padding-top: 18px;
+  display: flex;
+}
 .menu {
   display: inline-block;
   flex-direction: row;
   float: right;
+  padding-top: 13px;
+  padding-right: 13px;
 }
 .menu ul {
   margin: -13px;
@@ -31,12 +37,13 @@ header {
 }
 .imgAvatar {
   border-radius: 50%;
-  margin-left: 224px;
+  margin-left: 25%;
   margin-top: 87px;
 }
 nav h1 {
   border-bottom: 3px solid #00bab3;
   width: 247px;
+  margin-left: 36px;
 }
 .container1 {
   display: flex;
@@ -60,4 +67,13 @@ nav h1 {
 .infoBox2 {
 }
 .infoBox3 {
+}
+#disine h1 {
+  border-bottom: 3px solid #00bab3;
+  width: 119px;
+  margin-left: 36px;
+}
+#disine p {
+  width: 70%;
+  margin-left: 35px;
 }
