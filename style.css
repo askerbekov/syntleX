@@ -70,7 +70,7 @@ nav h1 {
 }
 #disine h1 {
   border-bottom: 3px solid #00bab3;
-  width: 119px;
+  width: 370px;
   margin-left: 36px;
 }
 #disine p {
@@ -86,4 +86,23 @@ nav h1 {
   width: 320px;
   margin: 4%;
   flex-direction: column;
+}
+
+#projects h1 {
+  border-bottom: 3px solid #00bab3;
+  width: 465px;
+  margin-left: 36px;
+}
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container3 div {
+  width: 160px;
+  margin: 2%;
+  flex-direction: column;
+}
+.container3 div img {
+  width: 90%;
 }
