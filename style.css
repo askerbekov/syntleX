@@ -4,6 +4,7 @@ body {
   color: #bebebe;
   font-family: "Raleway", sans-serif;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 header {
   background-color: #171717;
@@ -41,7 +42,7 @@ nav {
 }
 nav h1 {
   border-bottom: 3px solid #00bab3;
-  width: 247px;
+  width: 16%;
   margin-left: 36px;
   display: inline-block;
 }
@@ -107,6 +108,9 @@ nav h1 {
   margin: 4%;
   flex-direction: column;
 }
+.container2 img {
+  width: 110%;
+}
 .container3 {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +135,7 @@ nav h1 {
 #projects h2 {
   border-bottom: 3px solid #00bab3;
   width: 26%;
-  margin-left: 36px;
+  margin-left: 8%;
 }
 .container5 {
   display: flex;
@@ -145,4 +149,34 @@ nav h1 {
 }
 .container5 div img {
   width: 95%;
+}
+.container6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+}
+.container6 .column1 {
+  width: 45%;
+
+  margin-right: 13%;
+}
+.container6 .column2 {
+  width: 19%;
+
+  margin-right: 13%;
+}
+.container6 .column1 h3 {
+  border-bottom: 3px solid #00bab3;
+  width: 24%;
+  margin-left: 8%;
+}
+.container6 .column2 h3 {
+  border-bottom: 3px solid #00bab3;
+  width: 29%;
+  margin-left: 8%;
+}
+
+.container6 span {
+  color: #00bab3;
 }
