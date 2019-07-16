@@ -139,10 +139,10 @@ nav h1 {
   justify-content: center;
 }
 .container5 div {
-  width: 184px;
+  width: 169px;
   margin: 1%;
   flex-direction: column;
 }
 .container5 div img {
-  width: 100%;
+  width: 95%;
 }
