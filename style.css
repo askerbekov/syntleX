@@ -42,7 +42,7 @@ nav {
 }
 nav h1 {
   border-bottom: 3px solid #00bab3;
-  width: 16%;
+  display: inline-block;
   margin-left: 36px;
   display: inline-block;
 }
@@ -71,7 +71,7 @@ nav h1 {
 }
 #disine h2 {
   border-bottom: 3px solid #00bab3;
-  width: 87px;
+  display: inline-block;
   margin-left: 6%;
 }
 #disine p {
@@ -81,7 +81,7 @@ nav h1 {
 
 #disine2 h2 {
   border-bottom: 3px solid #00bab3;
-  width: 12%;
+  display: inline-block;
   margin-left: 6%;
 }
 #disine2 p {
@@ -91,7 +91,7 @@ nav h1 {
 
 #disine3 h2 {
   border-bottom: 3px solid #00bab3;
-  width: 21%;
+  display: inline-block;
   margin-left: 6%;
 }
 #disine3 p {
@@ -134,7 +134,7 @@ nav h1 {
 
 #projects h2 {
   border-bottom: 3px solid #00bab3;
-  width: 26%;
+  display: inline-block;
   margin-left: 8%;
 }
 .container5 {
@@ -159,24 +159,37 @@ nav h1 {
 .container6 .column1 {
   width: 45%;
 
-  margin-right: 13%;
+  margin-right: 16%;
 }
 .container6 .column2 {
   width: 19%;
-
-  margin-right: 13%;
 }
 .container6 .column1 h3 {
   border-bottom: 3px solid #00bab3;
-  width: 24%;
-  margin-left: 8%;
+  display: inline-block;
+  margin-left: 10%;
 }
 .container6 .column2 h3 {
   border-bottom: 3px solid #00bab3;
-  width: 29%;
   margin-left: 8%;
+  display: inline-block;
 }
 
 .container6 span {
   color: #00bab3;
+}
+.footer {
+  text-align: center;
+}
+.footer h2 {
+  color: #00bab3;
+  margin-top: 9%;
+}
+.footer div {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+.footer p {
+  margin: 1%;
 }
