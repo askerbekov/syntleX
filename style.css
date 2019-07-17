@@ -2,8 +2,7 @@ body {
   display: flex;
   margin: 0;
   color: #bebebe;
-  font-family: "Raleway", sans-serif;
-  font-family: "Open Sans", sans-serif;
+
   font-size: 14px;
 }
 header {
@@ -69,12 +68,12 @@ nav h1 {
 }
 .infoBox3 {
 }
-#disine h2 {
+#disine1 h2 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
   margin-left: 6%;
 }
-#disine p {
+#disine1 p {
   width: 70%;
   margin-left: 6%;
 }
@@ -199,4 +198,8 @@ nav h1 {
 }
 .footer p {
   margin: 1%;
+}
+.menu ul li :hover {
+  color: #00bab3;
+  border-bottom: 2px solid #00bab3;
 }
