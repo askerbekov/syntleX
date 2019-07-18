@@ -1,15 +1,21 @@
-let anchorlinks = document.querySelectorAll('a[href="contact"]');
+const anchors = document.querySelectorAll('a[href^="#"]');
 
-for (let item of anchorlinks) {
-  // relitere
-  item.addEventListener("click", e => {
-    let hashval = item.getElementsByClassName("container6");
-    let target = document.querySelector(hashval);
-    target.scrollIntoView({
-      behavior: "smooth",
-      block: "start"
-    });
-    history.pushState(null, null, hashval);
+for (let anchor of anchors) {
+  anchor.addEventListener("click", function(e) {
     e.preventDefault();
+
+    const blockID = anchor.getAttribute("href");
+
+    if (anchor.getAttribute("href") === "#") {
+      document.querySelector("body").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    } else {
+      document.querySelector("" + blockID).scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
   });
 }

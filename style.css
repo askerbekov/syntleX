@@ -2,7 +2,6 @@ body {
   display: flex;
   margin: 0;
   color: #bebebe;
-
   font-size: 14px;
 }
 header {
@@ -68,32 +67,32 @@ nav h1 {
 }
 .infoBox3 {
 }
-#disine1 h2 {
+#disine h2 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
   margin-left: 6%;
 }
-#disine1 p {
+#disine p {
   width: 70%;
   margin-left: 6%;
 }
 
-#disine2 h2 {
+#uxui h2 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
   margin-left: 6%;
 }
-#disine2 p {
+#uxui p {
   width: 70%;
   margin-left: 6%;
 }
 
-#disine3 h2 {
+#works h2 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
   margin-left: 6%;
 }
-#disine3 p {
+#works p {
   width: 70%;
   margin-left: 6%;
 }
