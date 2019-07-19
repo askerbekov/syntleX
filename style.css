@@ -72,29 +72,36 @@ nav h1 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
   margin-left: 5%;
+  margin-bottom: 0;
+  margin-top: 5%;
 }
 #disine p {
-  width: 70%;
+  width: 49%;
+  margin-left: 5%;
 }
 
 #uxui h2 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
-  margin-left: 6%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  margin-top: 5%;
 }
 #uxui p {
-  width: 70%;
-  margin-left: 6%;
+  width: 50%;
+  margin-left: 5%;
 }
 
 #works h2 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
-  margin-left: 6%;
+  margin-left: 5%;
+  margin-bottom: 0;
+  margin-top: 5%;
 }
 #works p {
-  width: 70%;
-  margin-left: 6%;
+  width: 48%;
+  margin-left: 5%;
 }
 .container2 {
   display: flex;
@@ -110,18 +117,28 @@ nav h1 {
   width: 370px;
   height: 295px;
 }
+.container2 h4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 .container3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .container3 img {
-  width: 100%;
+  max-width: 100%;
+  width: 370px;
+  height: 295px;
 }
 .container3 div {
-  width: 320px;
-  margin: 4%;
+  width: 370px;
+  margin: 2%;
   flex-direction: column;
+}
+.container3 h4 {
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 .container4 {
   display: flex;
@@ -129,18 +146,25 @@ nav h1 {
   justify-content: center;
 }
 .container4 img {
-  width: 100%;
-}
-.container4 div {
-  width: 320px;
-  margin: 4%;
-  flex-direction: column;
+  max-width: 100%;
+  width: 370px;
+  height: 295px;
 }
 
+.container4 div {
+  width: 370px;
+  margin: 2%;
+  flex-direction: column;
+}
+.container4 h4 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 #projects h2 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
-  margin-left: 8%;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 .container5 {
   display: flex;
@@ -149,27 +173,25 @@ nav h1 {
 }
 
 .container5 div {
-  width: 169px;
+  width: 180px;
   margin: 1%;
   flex-direction: column;
 }
 .container5 div img {
-  width: 95%;
+  width: 100%;
 }
 .container6 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 5%;
+  float: left;
 }
 .container6 .column1 {
-  width: 420px;
-
-  margin-left: 10%;
+  margin: 65px;
+  width: 49%;
 }
 .container6 .column2 {
-  width: 278px;
-  margin-left: 10%;
+  width: 26.5%;
+  margin: 65px;
 }
 .container6 .column1 h3 {
   border-bottom: 3px solid #00bab3;
@@ -194,7 +216,7 @@ nav h1 {
 .footer div {
   display: flex;
   justify-content: center;
-  margin: 2%;
+  margin-bottom: 3%;
 }
 .footer p {
   margin: 1%;
