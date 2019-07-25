@@ -4,6 +4,7 @@ body {
   color: #bebebe;
   font-family: "Roboto", sans-serif;
   background-color: #171717;
+  height: 100vh;
 }
 header {
   width: 100%;
@@ -113,7 +114,6 @@ nav h1 {
 .container2 div {
   width: 370px;
   margin: 2%;
-  flex-direction: column;
 }
 .container2 img {
   width: 370px;
