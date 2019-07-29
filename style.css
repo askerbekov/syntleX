@@ -117,6 +117,7 @@ nav h1 {
 .container2 div {
   width: 27%;
   margin: 2%;
+  min-width: 300px;
 }
 .container2 img {
   width: 100%;
@@ -139,7 +140,7 @@ nav h1 {
 .container3 div {
   width: 27%;
   margin: 2%;
-  flex-direction: column;
+  min-width: 300px;
 }
 .container3 h4 {
   margin-top: 20px;
@@ -159,7 +160,7 @@ nav h1 {
 .container4 div {
   width: 27%;
   margin: 2%;
-  flex-direction: column;
+  min-width: 300px;
 }
 .container4 h4 {
   margin-top: 20px;
