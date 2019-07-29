@@ -180,7 +180,8 @@ nav h1 {
 }
 
 .container5 div {
-  width: 180px;
+  width: 13%;
+  min-width: 150px;
   margin: 1%;
   flex-direction: column;
 }
