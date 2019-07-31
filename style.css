@@ -118,7 +118,7 @@ nav h1 {
 .container2 div {
   width: 27%;
   margin: 2%;
-  min-width: 300px;
+  min-width: 200px;
 }
 .container2 img {
   width: 100%;
@@ -141,7 +141,7 @@ nav h1 {
 .container3 div {
   width: 27%;
   margin: 2%;
-  min-width: 300px;
+  min-width: 200px;
 }
 .container3 h4 {
   margin-top: 20px;
@@ -161,7 +161,7 @@ nav h1 {
 .container4 div {
   width: 27%;
   margin: 2%;
-  min-width: 300px;
+  min-width: 200px;
 }
 .container4 h4 {
   margin-top: 20px;
@@ -181,7 +181,7 @@ nav h1 {
 
 .container5 div {
   width: 13%;
-  min-width: 150px;
+  min-width: 100px;
   margin: 1%;
   flex-direction: column;
 }
@@ -196,10 +196,10 @@ nav h1 {
 }
 .container6 .column1 {
   margin: 5%;
-  width: 49%;
+  width: 555px;
 }
 .container6 .column2 {
-  width: 26.5%;
+  width: 400px;
   margin: 5%;
 }
 .container6 .column1 h3 {
