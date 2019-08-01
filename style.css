@@ -196,7 +196,8 @@ nav h1 {
 }
 .container6 .column1 {
   margin: 5%;
-  width: 555px;
+  width: 50%;
+  min-width: 300px;
 }
 .container6 .column2 {
   width: 400px;
