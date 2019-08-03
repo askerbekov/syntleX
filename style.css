@@ -9,6 +9,14 @@ body {
   background-color: #171717;
   font-size: 2.5vmin;
 }
+.row img {
+  width: 100%;
+
+  background-size: cover;
+}
+.container-fluid {
+  padding: 5%;
+}
 header {
   width: 100%;
   padding: (0, 30px, 0, 30px);
@@ -57,14 +65,7 @@ nav h1 {
   margin-left: 15%;
   flex-wrap: wrap;
 }
-.container1 div {
-  border-radius: 15px;
-  padding: 20px;
-  margin: 4%;
-  flex-direction: column;
-  align-items: center;
-  float: right;
-}
+
 .container1 h4 {
   color: #00bab3;
 }
@@ -110,63 +111,7 @@ nav h1 {
   width: 48%;
   margin-left: 5%;
 }
-.container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.container2 div {
-  width: 27%;
-  margin: 2%;
-  min-width: 200px;
-}
-.container2 img {
-  width: 100%;
 
-  background-size: cover;
-}
-.container2 h4 {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-.container3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.container3 img {
-  width: 100%;
-  background-size: cover;
-}
-.container3 div {
-  width: 27%;
-  margin: 2%;
-  min-width: 200px;
-}
-.container3 h4 {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-.container4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.container4 img {
-  width: 100%;
-
-  background-size: cover;
-}
-
-.container4 div {
-  width: 27%;
-  margin: 2%;
-  min-width: 200px;
-}
-.container4 h4 {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
 #projects h2 {
   border-bottom: 3px solid #00bab3;
   display: inline-block;
