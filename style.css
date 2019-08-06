@@ -59,12 +59,9 @@ nav h1 {
   display: inline-block;
   margin-left: 5%;
   display: inline-block;
-  font-size: 5vmin;
+  font-size: larger;
 }
-.h3,
-h3 {
-  font-size: 3.5vmin;
-}
+
 .container1 {
   display: flex;
   margin-left: 15%;
@@ -73,6 +70,9 @@ h3 {
 
 .container1 h4 {
   color: #00bab3;
+}
+.container1 h3 {
+  font-size: large;
 }
 .infoBox1 {
   text-align: right;
@@ -88,7 +88,6 @@ h3 {
   margin-left: 5%;
   margin-bottom: 12px;
   margin-top: 5%;
-  font-size: 5vmin;
 }
 #disine p {
   width: 49%;
@@ -102,7 +101,6 @@ h3 {
   margin-left: 5%;
   margin-bottom: 12px;
   margin-top: 5%;
-  font-size: 5vmin;
 }
 #uxui .p {
   width: 50%;
@@ -116,7 +114,6 @@ h3 {
   margin-left: 5%;
   margin-bottom: 12px;
   margin-top: 5%;
-  font-size: 5vmin;
 }
 #works .p {
   width: 48%;
@@ -128,8 +125,6 @@ h3 {
   display: inline-block;
   margin-left: 5%;
   margin-bottom: 12px;
-  margin-top: 5%;
-  font-size: 5vmin;
 }
 .container5 {
   display: flex;
@@ -201,12 +196,4 @@ h3 {
 .small,
 small {
   font-size: 100%;
-}
-.h4,
-h4 {
-  font-size: 6vmin;
-}
-.h3,
-h3 {
-  font-size: 5.5vmin;
 }
