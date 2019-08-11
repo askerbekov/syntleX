@@ -15,8 +15,14 @@ body {
   margin-top: 4%;
   background-size: cover;
 }
+.row p {
+  line-height: 1;
+  font-size: 16px;
+}
+
 .container-fluid {
-  padding: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 header {
   width: 100%;
@@ -55,9 +61,10 @@ nav {
   background-size: cover;
 }
 nav h1 {
-  border-bottom: 3px solid #00bab3;
+  border-bottom: 2px solid #00bab3;
   display: inline-block;
   margin-left: 5%;
+  line-height: unset;
   display: inline-block;
   font-family: "Roboto", sans-serif;
 }
@@ -82,45 +89,55 @@ nav h1 {
 }
 
 #disine h2 {
-  border-bottom: 3px solid #00bab3;
+  border-bottom: 2px solid #00bab3;
+  line-height: unset;
   display: inline-block;
   margin-left: 5%;
   margin-bottom: 1.5%;
   margin-top: 5%;
 }
-#disine p {
+#disine .lead {
   width: 49%;
   min-width: 300px;
   margin-left: 5%;
+  line-height: 1;
+  font-size: 16px;
 }
 
 #uxui h2 {
-  border-bottom: 3px solid #00bab3;
+  border-bottom: 2px solid #00bab3;
+  line-height: unset;
   display: inline-block;
   margin-left: 5%;
   margin-bottom: 1.5%;
   margin-top: 5%;
 }
-#uxui .p {
+#uxui .lead {
   width: 50%;
   min-width: 300px;
   margin-left: 5%;
+  font-size: 16px;
+  line-height: 1;
 }
 
 #works h2 {
-  border-bottom: 3px solid #00bab3;
+  border-bottom: 2px solid #00bab3;
+  line-height: unset;
   display: inline-block;
   margin-left: 5%;
   margin-bottom: 1.5%;
   margin-top: 5%;
 }
-#works .p {
+#works .lead {
   width: 48%;
+  line-height: 1;
+  font-size: 16px;
   margin-left: 5%;
 }
 
 #projects h2 {
-  border-bottom: 3px solid #00bab3;
+  border-bottom: 2px solid #00bab3;
+  line-height: unset;
   display: inline-block;
   margin-left: 5%;
   margin-bottom: 1.5%;
@@ -156,12 +173,13 @@ nav h1 {
   margin: 5%;
 }
 .container6 .column1 h3 {
-  border-bottom: 3px solid #00bab3;
+  border-bottom: 2px solid #00bab3;
+  line-height: unset;
   display: inline-block;
 }
 .container6 .column2 h3 {
-  border-bottom: 3px solid #00bab3;
-
+  border-bottom: 2px solid #00bab3;
+  line-height: unset;
   display: inline-block;
 }
 .container6,
@@ -195,32 +213,32 @@ nav h1 {
 
 .small,
 small {
-  font-size: 100%;
+  font-size: 80%;
 }
 
 .h1,
 h1 {
-  font-size: 1.5vw;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
 .h2,
 h2 {
-  font-size: 2vw;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
 .h3,
 h3 {
-  font-size: 1.5vw;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
 .h4,
 h4 {
-  font-size: 1.7vw;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
 .h5,
 h5 {
-  font-size: 1.5vw;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
 }
 @media screen and (max-width: 2560px) {
@@ -228,16 +246,33 @@ h5 {
   body {
     font-size: 35px;
   }
+  .row p {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 1500px) {
   body {
+    font-size: 23px;
+  }
+  .row p {
     font-size: 23px;
   }
 }
 @media screen and (max-width: 1440px) {
   /* specific CSS */
   body {
-    font-size: 20px;
+    font-size: 16px;
+  }
+  .row p {
+    font-size: 16px;
+  }
+  .h1,
+  h1 {
+    font-size: 22px;
+  }
+  .h3,
+  h3 {
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -245,10 +280,16 @@ h5 {
   body {
     font-size: 15px;
   }
+  .row p {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 1024px) {
   /* specific CSS */
   body {
+    font-size: 15px;
+  }
+  .row p {
     font-size: 15px;
   }
   .h1,
@@ -277,9 +318,46 @@ h5 {
     font-family: "Roboto", sans-serif;
   }
 }
+@media screen and (max-width: 850px) {
+  /* specific CSS */
+  body {
+    font-size: 13px;
+  }
+  .row p {
+    font-size: 13px;
+  }
+  .h1,
+  h1 {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+  .h2,
+  h2 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+  .h3,
+  h3 {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+  }
+  .h4,
+  h4 {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+  }
+  .h5,
+  h5 {
+    font-size: 8px;
+    font-family: "Roboto", sans-serif;
+  }
+}
 @media screen and (max-width: 768px) {
   /* specific CSS */
   body {
+    font-size: 13px;
+  }
+  .row p {
     font-size: 13px;
   }
   .h1,
@@ -306,5 +384,15 @@ h5 {
   h5 {
     font-size: 8px;
     font-family: "Roboto", sans-serif;
+  }
+
+  #disine p {
+    font-size: 10px;
+  }
+  #works .p {
+    font-size: 10px;
+  }
+  #uxui .p {
+    font-size: 10px;
   }
 }
