@@ -252,6 +252,9 @@ h5 {
   #disine .lead {
     font-size: 35px;
   }
+  #uxui .lead {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 1500px) {
   body {
@@ -261,6 +264,9 @@ h5 {
     font-size: 23px;
   }
   #disine .lead {
+    font-size: 23px;
+  }
+  #uxui .lead {
     font-size: 23px;
   }
 }
@@ -273,6 +279,9 @@ h5 {
     font-size: 16px;
   }
   #disine .lead {
+    font-size: 16px;
+  }
+  #uxui .lead {
     font-size: 16px;
   }
   .h1,
@@ -295,6 +304,9 @@ h5 {
   #disine .lead {
     font-size: 15px;
   }
+  #uxui .lead {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 1024px) {
   /* specific CSS */
@@ -305,6 +317,9 @@ h5 {
     font-size: 15px;
   }
   #disine .lead {
+    font-size: 15px;
+  }
+  #uxui .lead {
     font-size: 15px;
   }
   .h1,
@@ -344,6 +359,9 @@ h5 {
   #disine .lead {
     font-size: 13px;
   }
+  #uxui .lead {
+    font-size: 13px;
+  }
   .h1,
   h1 {
     font-size: 14px;
@@ -379,6 +397,9 @@ h5 {
     font-size: 13px;
   }
   #disine .lead {
+    font-size: 13px;
+  }
+  #uxui .lead {
     font-size: 13px;
   }
   .h1,
