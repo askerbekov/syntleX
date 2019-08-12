@@ -269,6 +269,10 @@ h5 {
   #uxui .lead {
     font-size: 23px;
   }
+  .h1,
+  h1 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 1440px) {
   /* specific CSS */
