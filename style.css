@@ -244,16 +244,16 @@ h5 {
 @media screen and (max-width: 2560px) {
   /* specific CSS */
   body {
-    font-size: 35px;
+    font-size: 30px;
   }
   .row p {
-    font-size: 35px;
+    font-size: 30px;
   }
   #disine .lead {
-    font-size: 35px;
+    font-size: 30px;
   }
   #uxui .lead {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 1500px) {
