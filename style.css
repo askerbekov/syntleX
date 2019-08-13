@@ -259,6 +259,18 @@ h5 {
   h1 {
     font-size: 34px;
   }
+  .h2,
+  h2 {
+    font-size: 32px;
+  }
+  .h3,
+  h3 {
+    font-size: 30px;
+  }
+  .h4,
+  h4 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 1500px) {
   body {
@@ -276,6 +288,18 @@ h5 {
   .h1,
   h1 {
     font-size: 29px;
+  }
+  .h2,
+  h2 {
+    font-size: 25px;
+  }
+  .h3,
+  h3 {
+    font-size: 23px;
+  }
+  .h4,
+  h4 {
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -296,9 +320,17 @@ h5 {
   h1 {
     font-size: 22px;
   }
+  .h2,
+  h2 {
+    font-size: 20px;
+  }
   .h3,
   h3 {
-    font-size: 22px;
+    font-size: 18px;
+  }
+  .h4,
+  h4 {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -319,6 +351,18 @@ h5 {
   h1 {
     font-size: 21px;
   }
+  .h2,
+  h2 {
+    font-size: 19px;
+  }
+  .h3,
+  h3 {
+    font-size: 17px;
+  }
+  .h4,
+  h4 {
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 1024px) {
   /* specific CSS */
@@ -338,6 +382,18 @@ h5 {
   h1 {
     font-size: 21px;
   }
+  .h2,
+  h2 {
+    font-size: 18px;
+  }
+  .h3,
+  h3 {
+    font-size: 16px;
+  }
+  .h4,
+  h4 {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 850px) {
   /* specific CSS */
@@ -356,7 +412,18 @@ h5 {
   .h1,
   h1 {
     font-size: 19px;
-    font-family: "Roboto", sans-serif;
+  }
+  .h2,
+  h2 {
+    font-size: 16px;
+  }
+  .h3,
+  h3 {
+    font-size: 14px;
+  }
+  .h4,
+  h4 {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -376,5 +443,17 @@ h5 {
   .h1,
   h1 {
     font-size: 19px;
+  }
+  .h2,
+  h2 {
+    font-size: 16px;
+  }
+  .h3,
+  h3 {
+    font-size: 14px;
+  }
+  .h4,
+  h4 {
+    font-size: 14px;
   }
 }
